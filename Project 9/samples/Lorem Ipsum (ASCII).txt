@@ -1,0 +1,84 @@
+In publishing and graphic design, Lorem ipsum is a placeholder 
+text commonly used to demonstrate the visual form of a document 
+or a typeface without relying on meaningful content. Lorem ipsum may 
+be used as a placeholder before the final copy is available. It is 
+also used to temporarily replace text in a process called greeking, 
+which allows designers to consider the form of a webpage or publication, 
+without the meaning of the text influencing the design.
+
+Lorem ipsum is typically a corrupted version of De finibus bonorum
+et malorum, a 1st-century BC text by the Roman statesman and philosopher 
+Cicero, with words altered, added, and removed to make it nonsensical and 
+improper Latin.
+
+Versions of the Lorem ipsum text have been used in typesetting at least 
+since the 1960s, when it was popularized by advertisements for Letraset 
+transfer sheets. Lorem ipsum was introduced to the digital world in the
+mid-1980s, when Aldus employed it in graphic and word-processing 
+templates for its desktop publishing program PageMaker. Other popular 
+word processors, including Pages and Microsoft Word, have since adopted 
+Lorem ipsum, as have many LaTeX packages, web content managers 
+such as Joomla! and WordPress, and CSS libraries such as Semantic UI.
+
+There are many variations of passages of Lorem Ipsum available, but 
+the majority have suffered alteration in some form, by injected humour, 
+or randomised words which don't look even slightly believable. If you are 
+going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+anything embarrassing hidden in the middle of text. All the Lorem Ipsum 
+generators on the Internet tend to repeat predefined chunks as necessary
+
+
+
+Example:
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non bibendum 
+eros. In at tellus tellus. Mauris lobortis consectetur orci quis tincidunt. 
+Nulla at aliquet erat, at viverra felis. Vivamus ac luctus eros. Proin eu 
+nisl nulla. Vestibulum viverra id sem hendrerit sodales. Proin sed ornare 
+mi. Nunc sodales nunc vitae nisi egestas laoreet in vel mauris. 
+Pellentesque aliquam lacus et nulla facilisis congue. Vestibulum 
+aliquam varius velit at tempor. Integer laoreet ipsum id scelerisque porta. 
+
+Nulla condimentum sem quis elit facilisis faucibus. Aliquam efficitur 
+eleifend ipsum sed semper. Lorem ipsum dolor sit amet, consectetur 
+adipiscing elit. Nullam ut arcu at risus lacinia pellentesque non 
+nec odio. Proin consectetur mi volutpat nulla congue dictum vitae 
+ac lacus. Class aptent taciti sociosqu ad litora torquent per 
+conubia nostra, per inceptos himenaeos. Duis a tortor eros. 
+Donec vel neque ut enim iaculis fermentum eu quis odio. Pellentesque 
+non purus ligula. Maecenas imperdiet, ipsum eu pellentesque viverra, 
+nisl libero aliquet turpis, a tristique dui libero sed nisi. Mauris 
+erat nibh, auctor eget arcu ullamcorper, pellentesque ornare lectus. 
+Sed sit amet orci erat. Aliquam rhoncus tellus in semper aliquam. 
+Fusce ac maximus arcu.
+
+Vestibulum sed urna in lectus aliquam ornare. Donec leo est, pulvinar 
+at volutpat non, condimentum in ligula. Pellentesque rutrum libero vel 
+tincidunt interdum. Nunc volutpat est at leo pharetra, in viverra arcu 
+dapibus. Ut id augue accumsan, fermentum arcu ac, dictum urna. Ut blandit 
+est nec risus accumsan, quis luctus arcu tristique. Sed tortor mauris, 
+ultrices sit amet est non, vestibulum pulvinar dolor. Nullam leo nunc, 
+venenatis vel sollicitudin vitae, rutrum quis ante. Aliquam volutpat 
+sem nec ex commodo maximus.
+
+Cras maximus mi id odio venenatis tincidunt. Donec tempus aliquet 
+molestie. Donec viverra, sem in sollicitudin consectetur, ante dolor 
+interdum libero, in rhoncus dui eros vel odio. Quisque tristique elit 
+porttitor sollicitudin feugiat. Suspendisse a laoreet nibh. Aliquam erat 
+volutpat. Nunc condimentum dolor urna, ut varius sapien laoreet sed. 
+Duis nec finibus ligula, et viverra odio. Donec consectetur convallis 
+leo, quis convallis ligula gravida id. Sed scelerisque, neque et vehicula 
+dapibus, nisl lectus molestie arcu, eu laoreet ex augue quis augue.
+
+Proin cursus ipsum ac libero faucibus eleifend. Vestibulum id ante 
+vitae turpis ornare bibendum. Praesent varius tristique finibus. 
+Nullam porta id lacus eu accumsan. Morbi ornare tortor vel lobortis 
+venenatis. Vivamus quam dui, posuere eu posuere ut, ultrices non ante. 
+Morbi ultrices nisl sed purus hendrerit gravida. Praesent eget augue ac 
+dolor vulputate suscipit sed eu quam. In vehicula, nulla non porta 
+lobortis, diam lorem hendrerit ligula, non maximus risus enim in nunc. 
+Aliquam egestas, quam sed finibus efficitur, tortor odio suscipit eros, 
+eget porta enim orci quis augue. Nam fermentum viverra congue. Ut massa 
+tortor, auctor eu fringilla ac, porta et felis. 
