@@ -154,10 +154,10 @@ class Player():
         if (card_val in ["J", "Q", "K"]):
             self.cards_sum += 10
         elif(card_val == "A"):
-            self.cards_sum += 1 #11
+            self.cards_sum += 11
         else:
             self.cards_sum += card_val
-    '''
+    
     def ace_counter(self):
         self.ace_count = 0
         for card in self.player_cards:
@@ -174,18 +174,18 @@ class Player():
                     self.cards_sum -= 10
                     self.reduced_aces +=1
                 i += 1
-    '''
-    def append_card(self, deck, limit):
+    
+    def append_card(self, deck):
         self.player_cards.append(deck.pop(0))
         self.calc_sum(self.player_cards[-1][1])
-        #self.decide_ace_value(limit)
+        self.decide_ace_value(21)
         self.display_card(self.player_cards[-1])
 
     # Draw to 16 and stand on 17
     def dealer_mode(self, deck):
         limit = 16
         while(self.cards_sum < limit):
-            self.append_card(deck, limit)
+            self.append_card(deck)
 
     def __del__(self):
         try:
@@ -323,8 +323,8 @@ class GameMode():
         try:
             self.player1 = Player(self.parent, "p")
             self.dealer = Player(self.parent, "d")
-            self.player1.append_card(deck, 16)
-            self.dealer.append_card(deck, 16)
+            self.player1.append_card(deck)
+            self.dealer.append_card(deck)
             self.player1.dealer_mode(deck)
             if (self.player1.cards_sum <= 21):
                 self.dealer.dealer_mode(deck)
@@ -353,15 +353,15 @@ class GameMode():
         self.controls.data["buttons"][3].bind("<Button-1>", lambda e: self.empty())
         self.controls.controls_state(["Place Bet"], "disabled")
         self.bet = self.controls.data["bet_chip_num"]
-        self.player1.append_card(self.deck, 21)
-        self.player1.append_card(self.deck, 21)
-        self.dealer.append_card(self.deck, 21)
+        self.player1.append_card(self.deck)
+        self.player1.append_card(self.deck)
+        self.dealer.append_card(self.deck)
         self.controls.data["buttons"][1].bind("<Button-1>", lambda e: self.hit_me())
         self.controls.data["buttons"][2].bind("<Button-1>", lambda e: self.stand())
         self.controls.controls_state(["Hit Me", "Stand"], "normal")
 
     def hit_me(self):
-        self.player1.append_card(self.deck, 21)
+        self.player1.append_card(self.deck)
         self.player_lost()
 
     def stand(self):
