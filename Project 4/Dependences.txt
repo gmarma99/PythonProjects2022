@@ -1,0 +1,15 @@
+Required Libraries & Modules:
+=============================
+PIL, ImageTk
+
+Installation:
+=============
+
+Debian-based Linux Distributions:
+---------------------------------
+PIL:     pip3 install pillow 
+ImageTk: apt install python3-pil python3-pil.imagetk
+
+Windows:
+--------
+PIL, ImageTk: pip3 install Pillow
