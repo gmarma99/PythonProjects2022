@@ -328,6 +328,8 @@ class GameMode():
             self.player1.dealer_mode(deck)
             if (self.player1.cards_sum <= 21):
                 self.dealer.dealer_mode(deck)
+            else:
+                pass
             self.r = self.decide_winner()
         except:
             pass
@@ -387,6 +389,7 @@ class GameMode():
         self.controls.controls_state(["New Round"], "normal")
         self.outcome.configure(text = "")
         self.scroll_frame.remove_buttons()
+        self.scroll_frame.destroy_last_game()
         self.scroll_frame.button_list = []
         self.scroll_frame.history_deck = []
         self.stats.clear_stats_board()
@@ -413,6 +416,9 @@ class GameMode():
             self.stats.data["stats_val"][self.r] += 1   
             self.stats.update_stats_board()
             self.scroll_frame.append_button(i)
+        self.player1 = Player(self.parent, "p")
+        self.dealer = Player(self.parent, "d")
+        self.outcome.configure(text = "")
     
     def selected_game_mode(self):
         if (preferences["choices"][0] == 0):
@@ -467,9 +473,11 @@ class ScrollFrame(tk.Frame):
         self.button_list[-1].pack(side="top", fill="x")
 
     def remove_buttons(self):
-        self.game.gameplay([])
         for b in self.button_list:
             b.destroy()
+
+    def destroy_last_game(self):
+        self.game.gameplay([])
 
 
 class RadioBar(tk.Frame):
