@@ -19,7 +19,7 @@ except ImportError:
 
 preferences = {
     "options": ["Normal Blackjack Mode", "Statistics Mode"],
-    "choices": [0, 0]
+    "choices": [1, 0]
 }
 
 colors= {
